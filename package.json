@@ -1,8 +1,16 @@
 {
   "name": "nm-jstools",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A plugins for js tools",
   "main": "/dist/jsTools.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Niumeng1/nm-jstools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Niumeng1/nm-jstools/issues"
+  },
+  "homepage": "https://github.com/Niumeng1/nm-jstools",
   "scripts": {
     "test": "jest",
     "build": "npm test && webpack"
