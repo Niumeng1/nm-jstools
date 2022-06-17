@@ -2,16 +2,13 @@
  * @Description: 基础数据处理
  * @Author: 牛猛
  * @Date: 2022-06-17 15:46:21
- * @LastEditTime: 2022-06-17 17:43:35
+ * @LastEditTime: 2022-06-17 18:05:34
  * @LastEditors: nm
  * @FilePath: \nm-jstools\src\data-make\index.js
  */
 //生成uuid
 
-//判断是否为空
- function isNull(params){
-    return params === null || params === undefined || params === ''
-}
+
 
 const dataUtil = {
     uuid:()=>{
@@ -21,7 +18,7 @@ const dataUtil = {
         });
     },
     isNull:(params)=>{
-        return isNull(params)
+        return params === null || params === undefined || params === ''
     },
 }
-export default dataUtil
+export default dataUtil;

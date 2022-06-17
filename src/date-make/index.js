@@ -165,7 +165,7 @@
      * @returns 
      */
     getNextDate: (date, day) => {
-      var dd = new Date(date);
+      var dd = new Date();
       dd.setDate(dd.getDate() + day);
       var y = dd.getFullYear();
       var m = dd.getMonth() + 1 < 10 ? "0" + (dd.getMonth() + 1) : dd.getMonth() + 1;

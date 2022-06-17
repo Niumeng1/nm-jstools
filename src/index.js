@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: 牛猛
  * @Date: 2022-06-15 16:37:27
- * @LastEditTime: 2022-06-17 17:37:56
+ * @LastEditTime: 2022-06-17 18:01:00
  * @LastEditors: nm
  * @FilePath: \nm-jstools\src\index.js
  */
