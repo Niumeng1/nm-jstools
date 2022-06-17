@@ -1,5 +1,5 @@
 
- export const dateUtil = {
+ const dateUtil = {
     getTime: () => {
       if (new Date().getMonth() < 9 && new Date().getDate() > 9) {
         return [
@@ -174,5 +174,5 @@
     },
   };
   
- 
+export default dateUtil;
   
