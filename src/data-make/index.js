@@ -2,7 +2,7 @@
  * @Description: 基础数据处理
  * @Author: 牛猛
  * @Date: 2022-06-17 15:46:21
- * @LastEditTime: 2022-06-17 17:37:46
+ * @LastEditTime: 2022-06-17 17:39:28
  * @LastEditors: nm
  * @FilePath: \nm-jstools\src\data-make\index.js
  */
@@ -20,7 +20,7 @@ const dataMake = {
             return v.toString(16);
         });
     },
-    isNull:()=>{
+    isNull:(params)=>{
         return isNull(params)
     },
 }
