@@ -2,7 +2,7 @@
  * @Description: 基础数据处理
  * @Author: 牛猛
  * @Date: 2022-06-17 15:46:21
- * @LastEditTime: 2022-06-17 17:39:28
+ * @LastEditTime: 2022-06-17 17:43:35
  * @LastEditors: nm
  * @FilePath: \nm-jstools\src\data-make\index.js
  */
@@ -13,7 +13,7 @@
     return params === null || params === undefined || params === ''
 }
 
-const dataMake = {
+const dataUtil = {
     uuid:()=>{
         return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
             var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
@@ -24,4 +24,4 @@ const dataMake = {
         return isNull(params)
     },
 }
-export default dataMake
+export default dataUtil
