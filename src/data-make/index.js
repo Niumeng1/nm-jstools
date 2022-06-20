@@ -20,5 +20,6 @@ const dataUtil = {
     isNull:(params)=>{
         return params === null || params === undefined || params === ''
     },
+    
 }
 export default dataUtil;

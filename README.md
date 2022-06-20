@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: 牛猛
  * @Date: 2022-06-15 16:45:55
- * @LastEditTime: 2022-06-16 15:05:35
+ * @LastEditTime: 2022-06-20 13:05:15
  * @LastEditors: nm
  * @FilePath: \nm-jstools\README.md
 -->
@@ -49,4 +49,24 @@ xxx.unique(params)
 * return: boolean (true/false)
 */
 xxx.Validate.mobileCheck(1820035025)
+```
+
+### obj: data-make
+```
+ console.log(xxx.dataMake)
+
+```
+### obj: date-make
+```
+ console.log(xxx.dataMake)
+ 
+```
+### fun4: debounce
+```
+xxx.debounce(fn,200)
+```
+
+### throttle
+```
+xxx.throttle(fn,200)
 ```

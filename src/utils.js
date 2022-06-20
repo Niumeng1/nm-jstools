@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: 牛猛
  * @Date: 2022-06-15 16:39:10
- * @LastEditTime: 2022-06-16 14:47:27
+ * @LastEditTime: 2022-06-20 13:02:15
  * @LastEditors: nm
  * @FilePath: \nm-jstools\src\utils.js
  */
@@ -39,5 +39,39 @@ export  function unique(params){
         return str
     }
     
+}
+/**
+ * 防抖
+ * @param {*} callback 回调函数
+ * @param {*} delay 毫秒数 ms
+ * @returns 
+ */
+export function debounce(callback,delay){
+    let timer = null
+    return function(callback,delay){
+        clearTimeout(timer)
+        timer = setTimeout(()=>{
+            callback()
+        },delay)
+    }
+}
+/**
+ * 节流
+ * @param {*} callback 回调函数
+ * @param {*} delay 毫秒数 ms
+ * @returns 
+ */
+export function throttle(callback,delay){
+    let valid= true
+    return function(callback,delay){
+        if(!valid){
+            return false;
+        }
+        valid = false;
+        setTimeout(()=>{
+            callback()
+            valid = true
+        },delay)
+    }
 }
 
