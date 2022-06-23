@@ -2,7 +2,7 @@
  * @Description: 基础数据处理
  * @Author: 牛猛
  * @Date: 2022-06-17 15:46:21
- * @LastEditTime: 2022-06-17 18:05:34
+ * @LastEditTime: 2022-06-22 17:57:14
  * @LastEditors: nm
  * @FilePath: \nm-jstools\src\data-make\index.js
  */
@@ -20,6 +20,9 @@ const dataUtil = {
     isNull:(params)=>{
         return params === null || params === undefined || params === ''
     },
+    humptoLine:(name)=>{
+        return name.replace(/([A-Z])/g,"-$1").toLowerCase();
+    }
     
 }
 export default dataUtil;
