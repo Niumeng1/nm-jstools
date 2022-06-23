@@ -1,6 +1,6 @@
 {
   "name": "nm-jstools",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "A plugins for js tools",
   "main": "/dist/jsTools.js",
   "repository": {
